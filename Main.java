@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Comment c = new Comment("I like funny cat videos!", 100000, 1 );
+        System.out.println(c.toString());
     }
 }

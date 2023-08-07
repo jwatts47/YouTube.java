@@ -3,7 +3,7 @@
  * @author Jaylen Watts
  * @version 1.0
  */
-public class Video implements Watchable {
+public class Video{
     private String title;
     private User creator;
     private int likes;
