@@ -60,12 +60,13 @@ public int getDislikes() {
         return (rating1 - rating2);
     }
 
-    public String toString(){
-    String s = "";
-    s = "The comment of \""+this.getContent() + "\" ";
-    s = s + "has " + this.getLikes() + " likes and ";
-    s = s + this.getDislikes() + " dislikes.";
-    return s;
+    @Override
+    public String toString() {
+        return "Comment{" +
+                "likes=" + likes +
+                ", dislikes=" + dislikes +
+                ", content='" + content + '\'' +
+                '}';
     }
 
     public boolean equals(Object o){
