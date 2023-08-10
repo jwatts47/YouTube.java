@@ -1,2 +1,3 @@
-public class Shorts {
+public class Shorts extends Video{
+
 }
